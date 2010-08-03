@@ -72,6 +72,7 @@ if($mobile_browser>0) {
    echo "<link type='text/javascript' rel='stylesheet' href='/date/css/mobile.css'/>";
 }
 else echo "<!-- ", $_SERVER['HTTP_USER_AGENT'], " -->";
+   echo "<link type='text/javascript' rel='stylesheet' href='/date/css/mobile.css'/>";
 
 }
 ?>

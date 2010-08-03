@@ -7,8 +7,8 @@
 	<LINK href="/date/css/style.css" rel="stylesheet" type="text/css">
 	<script type='text/javascript' src='/date/js/calendarDateInput.js'></script>
 	<script src="/date/js/functii.js" type="text/javascript"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/js/jquery.ui.min.js" type="text/javascript"></script>
 	<script src="/date/js/jquery.textarea.js" type="text/javascript"></script>
 	<script src='/date/js/jquery.js' type='text/javascript'></script>
 	<?php detectmobile() ?>

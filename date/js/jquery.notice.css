@@ -1,0 +1,56 @@
+.notice-wrap {
+	position: fixed;
+	bottom: 15px;
+	right: 20px;
+	width: 250px;
+	z-index: 9999;
+}
+
+* html .notice-wrap {
+	position: absolute;		
+}
+ 
+.notice-item {
+	min-height: 60px;
+	background: #DDD;	
+	border: 2px solid #666;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	padding: 6px 6px 0 6px;
+	font-family: lucida Grande;
+	font-size: 11px;
+	display: block;
+	position: relative;
+	margin: 12px 0 0 0;
+	color: black;
+	text-shadow: 0 1px 1px #CCC;
+}
+
+.negru .notice-item{
+	color: #eee;
+	background: #333;
+	border: 2px solid #999;
+	text-shadow: 0 1px 1px #444;
+}
+
+.notice-item p{
+	font-size: inherit;
+}
+.negru .notice-item p{
+	color: #fff;
+}
+
+.notice-item a:hover{
+	color: inherit;
+	text-decoration: underline;
+}
+
+.notice-item-close {
+	position: absolute;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	right: 6px;
+	top: 6px;
+	cursor: pointer;
+}

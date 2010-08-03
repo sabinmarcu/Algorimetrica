@@ -1,0 +1,10 @@
+RewriteEngine ON
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*).css
+RewriteCond %{REQUEST_URI} !(.*).html
+RewriteCond %{REQUEST_URI} !robots.txt
+RewriteCond %{REQUEST_URI} !sitemap.xml
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteCond %{REQUEST_URI} !^/favicon.ico
+RewriteRule ^(.*)$ /$1/ [L,R=301]
+RewriteRule ^(.*)/$ /

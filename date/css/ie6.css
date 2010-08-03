@@ -1,0 +1,20 @@
+#pagina .colt{
+	background: url(../images/con.png) repeat-x;
+}
+
+#pagina .colt#dreapta-sus{
+	border-right: solid 1px #CCCCCC;
+	border-top: solid 1px #CCCCCC;
+}
+#pagina .colt#stanga-sus{
+	border-left: solid 1px #CCCCCC;
+	border-top: solid 1px #CCCCCC;
+}
+#pagina .colt#dreapta-jos{
+	border-right: solid 1px #CCCCCC;
+	border-bottom: solid 1px #CCCCCC;
+}
+#pagina .colt#stanga-jos{
+	border-left: solid 1px #CCCCCC;
+	border-bottom: solid 1px #CCCCCC;
+}

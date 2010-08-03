@@ -1,12 +1,12 @@
 .body{font-size: 8pt}
-.nav ul li div{
+#nav ul li div{
 background: none;
 width: 100%;
 height: 100%;
 }
-.nav {width: auto}
-.nav ul {width: auto}
-.nav ul li {width: 25%; height: 35px}
+#nav {width: auto}
+#nav ul {width: auto}
+#nav ul li {width: 25%; height: 35px}
 .colt{background: url(/date/images/cbg.png) repeat top center;
 	border : solid 1px #CCCCCC;
 	width: 10px;

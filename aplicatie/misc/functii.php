@@ -71,6 +71,7 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'windows')>0) {
 if($mobile_browser>0) {
    echo "<link type='text/javascript' media='screen' href='/date/css/mobile.css'/>";
 }
+else echo "<!-- ", $_SERVER['HTTP_USER_AGENT'], " -->";
 
 }
 ?>

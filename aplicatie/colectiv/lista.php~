@@ -23,7 +23,7 @@
 
 		$data = dateconvert($tema['data']);
 
-		print "<div class='bloc'><div class='element'><a href='/clasa/" . $tema['prescurtare'] . "'> " . str_replace("<", "&lt;", $tema['titlu']) . " </a></div><div class='subelement'>" . str_replace("<", "&lt;", $data) . "</div>";
+		print "<div class='bloc'><div class='element'><a href='/clasa/" . $tema['prescurtare'] . "'> " . str_replace("<", "&lt;", $tema['titlu']) . " </a></div><div class='subelement'>" . $data . "</div>";
 
 	
 

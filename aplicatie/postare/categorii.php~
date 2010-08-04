@@ -11,7 +11,7 @@ for ($i = 1; $i <= $total; $i++)	{
 	}
 }
 for ($i = 1; $i <= $plus; $i++)	{
-	$nume = str_replace("<", "&lt;", mysql_real_escape_string($_POST['nume'.($i+$total)]));
+	$nume = mysql_real_escape_string($_POST['nume'.($i+$total)]);
 	$sql = mysql_query("INSERT INTO categorii (nume) VALUES('".$nume."') ");
 	$rezultat = mysql_fetch_row($sql);
 }

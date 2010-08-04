@@ -5,7 +5,7 @@ $enunt = str_replace("<", "&lt;", mysql_real_escape_string($_POST['enunt']));
 $nr = str_replace("<", "&lt;", mysql_real_escape_string($_POST['exemple']));
 print_r($_POST);
 for ($i = 1; $i <= $nr - 1; $i++)	{
-	$aux = str_replace("<", "&lt;", mysql_real_escape_string($_POST["exemplu-$i"]);
+	$aux = str_replace("<", "&lt;", mysql_real_escape_string($_POST["exemple-$i"]);
 	if ($aux)
 	$exemple = $exemple . $aux . " //-- "; 
 	$aux = str_replace("<", "&lt;", mysql_real_escape_string($_POST["rezultat-$i"]));

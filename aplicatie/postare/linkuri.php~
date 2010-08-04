@@ -8,7 +8,7 @@ for ($i = 1; $i <= $total; $i++)	{
 		$nume = str_replace("<", "&lt;", mysql_real_escape_string($_POST['nume'.$i]));
 		$descriere = str_replace("<", "&lt;", mysql_real_escape_string($_POST['descriere'.$i]));
 		$accept = str_replace("<", "&lt;", mysql_real_escape_string($_POST['accept'.$i]));
-		if ($nume) { $sql = mysql_query("UPDATE linkuri SET nume = '".$nume."', descriere = '".$descriere."', acceptata = '".$accept."' WHERE id='".$i."'");  }
+		if ($nume) { $sql = mysql_query("UPDATE linkuri SET nume = '".$nume."', descriere = '".$descriere."', acceptata = '".$accept."' WHERE id='".$i."'"); $rezultat = mysql_fetch_row($sql); }
 	}
 }
 print "Actualizare terminata, te redirectionam in 3 secunde ... ";

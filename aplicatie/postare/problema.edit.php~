@@ -1,7 +1,7 @@
 <?php
 $titlu = str_replace("<", "&lt;", mysql_real_escape_string($_POST['titlu']));
 $enunt = str_replace("<", "&lt;", mysql_real_escape_string($_POST['enunt']));
-$nr = str_replace("<", "&lt;", mysql_real_escape_string($_POST['exemple']));
+$nr = stripslashes($_POST['exemple']); $nr = mysql_real_escape_string($nr);
 for ($i = 1; $i <= $nr - 1; $i++)	{
 	$aux = stripslashes($_POST["exemplu-$i"]); $aux = mysql_real_escape_string($aux);
 	if ($aux)

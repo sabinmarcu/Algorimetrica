@@ -3,6 +3,7 @@ session_start();
 $str = $_SERVER[REDIRECT_URL];
 $str = explode("/", $str);
 include_once 'misc/connect.php';
+include_once 'misc/functii.php';
 if ($_SESSION['nivel'] > 2)	$admin2 = 1;
 if ($_SESSION['nivel'] > 1)	$admin1 = 1;
 
@@ -27,7 +28,6 @@ else include 'postare/nex.php';
 include 'sablon/footer-admin.php';
 }
 else 	{
-include_once 'misc/functii.php';
 include_once 'misc/titlu.php';
 include 'sablon/header.php';
 if ($str[1] == "arhiva")	include 'probleme/nex.php';

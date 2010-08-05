@@ -12,7 +12,7 @@
 	<script src="/date/js/jquery-ui.min.js" type="text/javascript"></script>
 	<script src="/date/js/jquery.textarea.js" type="text/javascript"></script>
 	<script src='/date/js/jquery.js' type='text/javascript'></script>
-	<?php mobiledetect() ?>
+	<?php detectmobile() ?>
 </head>
 <body class='admin <?php echo $_COOKIE['culoare'] ?>'>
 </script>
